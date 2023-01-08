@@ -1,0 +1,21 @@
+.place__desc {
+  grid-area: place__desk;
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__desc {
+    margin-top: 26px;
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .place__desc {
+    margin: 0 16px;
+    gap: 25px;
+  }
+}

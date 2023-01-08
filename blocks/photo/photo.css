@@ -1,0 +1,28 @@
+.photo {
+  max-width: 1184px;
+  margin: 92px auto 0;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
+  gap: 16px;
+}
+@media screen and (max-width: 1024px){
+  .photo {
+    gap: 14px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+  }
+}
+@media screen and (max-width: 768px){
+  .photo {
+    margin: 88px auto 0;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(352px, max-content));
+  }
+}
+ @media screen and (max-width: 425px){
+.photo {
+  margin: 64px auto 0;
+  grid-template-columns: repeat(auto-fit, minmax(288px, max-content));
+  gap: 12px;
+  } 
+}

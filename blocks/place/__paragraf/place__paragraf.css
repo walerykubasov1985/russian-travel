@@ -1,0 +1,16 @@
+.place__paragraf {
+  grid-area: place__paragraf;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: inter, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 163%;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraf {
+    font-size: 16px;
+  }
+}

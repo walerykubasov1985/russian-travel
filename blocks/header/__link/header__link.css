@@ -1,0 +1,23 @@
+.header__link {
+  width: 29px;
+  height: 28px;
+  font-family: inter, sans-serif;
+  color: #fff;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  -webkit-transition: border-bottom 0.3s;
+  -moz-transition: border-bottom 0.3s;
+  -o-transition: border-bottom 0.3s;
+}
+
+.header__link:hover {
+  border-bottom: 3px solid #fff;
+}
+
+@media screen and (max-width: 425px){
+  .header__link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

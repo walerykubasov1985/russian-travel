@@ -1,0 +1,32 @@
+.cover__link {
+    display: block;
+    padding-top: 245px;
+    padding-bottom: 245px;
+    text-decoration: none;
+    background-color: rgba(42, 44, 47, 0.3);
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    -o-transition: background-color 0.2s;
+}
+.cover__link:hover {
+    background-color: rgba(42, 44, 47, 0.8)
+}
+
+@media screen and (max-width: 1024px){
+    .cover__link {
+        padding-top: 195px;
+        padding-bottom: 195px;
+    }
+}
+@media screen and (max-width: 768px){
+    .cover__link {
+        padding-top: 115px;
+        padding-bottom: 115px;
+    }
+}
+@media screen and (max-width: 425px){
+    .cover__link {
+        padding-top: 33px;
+         padding-bottom: 33px;
+     }
+}
