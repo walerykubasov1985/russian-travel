@@ -9,7 +9,7 @@
     -o-transition: background-color 0.2s;
 }
 .cover__link:hover {
-    background-color: rgba(42, 44, 47, 0.8)
+    background-color: rgba(42, 44, 47, 0.8);
 }
 
 @media screen and (max-width: 1024px){
