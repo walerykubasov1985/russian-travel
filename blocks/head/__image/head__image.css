@@ -2,13 +2,16 @@
   object-fit: cover;
   margin: 64px auto 0;
   width: 100%;
-} 
-@media screen and (max-width: 768px){
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
   .head__image {
     margin: 56px auto 0;
   }
 }
-@media screen and (max-width: 425px){
+
+@media screen and (max-width: 425px) {
   .head__image {
     margin: 40px auto 0;
   }

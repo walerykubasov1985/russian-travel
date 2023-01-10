@@ -4,14 +4,16 @@
   background-image: url('../../images/trains.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;  
+  background-size: cover;
 }
-@media screen and (max-width: 768px){
+
+@media screen and (max-width: 768px) {
   .cover {
     margin: 90px auto 0;
   }
 }
-@media screen and (max-width: 425px){
+
+@media screen and (max-width: 440px) {
   .cover {
     margin: 66px auto 0;
   }
