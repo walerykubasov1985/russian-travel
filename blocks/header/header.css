@@ -6,7 +6,14 @@
   align-items: center;
   min-height: 52px;
 }
-@media screen and (max-width: 425px){
+
+@media screen and (max-width: 768px) {
+  .header {
+    margin: 0 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
   .header {
     margin: 0 16px;
     padding-top: 16px;
