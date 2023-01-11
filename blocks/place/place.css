@@ -28,12 +28,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* grid-template-areas: "place__title"
-      "place__website"
-      "place__image"
-      "place__desk";
-    grid-template-columns: 1fr;
-    justify-items: center; */
     row-gap: 32px;
   }
 }
