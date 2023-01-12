@@ -3,4 +3,6 @@
     margin: 0 auto;
     background-color: #2A2C2F;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-rendering: optimizeLegibility;
 }
